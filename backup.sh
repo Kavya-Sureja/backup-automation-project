@@ -29,3 +29,4 @@ echo "------------------------------------" >> $LOG_FILE
 cd "$BACKUP_DIR"
 ls -1t | tail -n +11 | xargs -I {} rm -- {}
 echo "Update from Developer A"
+echo "Email notification feature added"
