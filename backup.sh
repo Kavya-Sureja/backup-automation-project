@@ -30,3 +30,4 @@ cd "$BACKUP_DIR"
 ls -1t | tail -n +11 | xargs -I {} rm -- {}
 echo "Update from Developer A"
 echo "Email notification feature added"
+echo "Logging feature added" >> logs/feature.log
